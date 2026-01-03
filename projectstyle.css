@@ -1,0 +1,122 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: #444;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: #f2f2f2;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+/* Sections */
+section {
+    padding: 3rem 1rem;
+}
+
+.about, .skills, .projects, .contact {
+    max-width: 800px;
+    margin: auto;
+}
+
+.skills ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skills li {
+    background: #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Projects */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project {
+    background: #eee;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+
+/* Contact Form */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.contact input, .contact textarea, .contact button {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #444;
+    color: #fff;
+}
